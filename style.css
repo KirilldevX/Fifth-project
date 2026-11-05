@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+}
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.container {
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    overflow: hidden;
+    width: 340px;
+}
+.container_text {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding:20px;
+    width: 100%;
+}
+.perf {
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+h1 {
+    font-family: Fraunces;
+    font-weight: 700;
+}
+.descr, .past {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+.descr {
+    line-height: 20px;
+}
+.now {
+    font-size: 28px;
+    font-family: Fraunces;
+    color: hsl(158, 36%, 37%);
+}
+button {
+    font-size: 16px;
+    display: flex;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    font-family: Montserrat;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    box-shadow: none;
+    border: none;
+}
+.price {
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(0, 100%, 100%);
+    padding: 30px;
+    margin-top: 30px;
+}
+.foot {
+    color: hsl(0, 0%, 0%);
+    font-size: 15px;
+}
+.phone {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.desktop {
+    display: none;
+}
+@media (min-width:768px) {
+    main {
+    justify-content: center;
+    }
+    .phone {
+        display: none;
+    }
+    .desktop {
+        display: block;
+        width: 50%;
+    }
+    .container {
+    border-radius: 10px;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    width: 550px;
+    } 
+    .container_text {
+    width: 50%;
+    align-items: stretch;
+    justify-content: center;
+    gap:15px;
+    }
+    button {
+        padding: 5px 45px;
+    }
+}
