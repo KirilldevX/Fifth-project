@@ -22,4 +22,4 @@ KirillDevX
 **Kwork:** [Мой профиль на Kwork](https://kwork.ru/user/kirilldevx)
 **Youtube** [KirillDevX](https://www.youtube.com/@KirillDevX)
 <img width="2559" height="1309" alt="image" src="https://github.com/user-attachments/assets/c6998595-b76f-4fc7-9709-b452166b1b12" />
-<img width="2559" height="1311" alt="image" src="https://github.com/user-attachments/assets/7f2ce53e-c5fe-444a-9b1b-88516ef5e112" />
+<img width="2558" height="1308" alt="image" src="https://github.com/user-attachments/assets/1c7c29f5-45f9-43c0-90a5-fdf69c4bac2d" />
